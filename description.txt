@@ -1,1 +1,3 @@
-The Thanos Challenge is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+This is a simple mod that bans the usage of half of all items in the game.
+
+Thanks to Wand of Sparking on Youtube for the idea.
