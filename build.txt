@@ -1,0 +1,3 @@
+displayName = The Thanos Challenge
+author = Fabpharos
+version = 0.1
