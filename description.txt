@@ -1,3 +1,5 @@
 This is a simple mod that bans the usage of half of all items in the game.
 
 Thanks to Wand of Sparking on Youtube for the idea.
+
+If you want to start a playthrough using this mod, make sure to visit the config section. If you've already created a world, set "Reroll Banned Items On World Load" the first time you enter it.

@@ -11,7 +11,7 @@ Configs: {
 
 		RerollBannedItemsOnWorldLoad: {
 			Label: Reroll Banned Items On World Load
-			Tooltip: Whether to reroll the list of items that can't be used when an existing world is entered.
+			Tooltip: Whether to reroll the list of items that can't be used when an existing world is entered. Turn this off after using.
 		}
 	}
 }

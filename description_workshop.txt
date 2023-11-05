@@ -10,7 +10,8 @@ Thanks to Wand of Sparking on Youtube for the challenge concept.
 	[*]The banned items cannot be used (cannot be swung, placed, equipped, eaten, used as ammo, etc.)
 	[*]You are allowed to [b]craft[/b] using banned items, however some recipies will be made impossible by being unable to place a workbench
 	[*]The [url=https://terraria.wiki.gg/wiki/Lihzahrd_Power_Cell]Lihzahrd Power Cell[/url] is never banned, since it is the only item required to beat the game. All other items are technically not required
-	[*]Percentage of items that are banned on world creation can be modified in the config (50% by default). You have to create a new world for this config change to take effect.
+	[*]Percentage of items that are banned on world creation can be modified in the config (50% by default).
+	[*]You can reroll which items are banned by selecting the option in the config, then entering the world.
 [/list]
 
 Fun fact: The [url=https://terraria.wiki.gg/wiki/Zenith]Zenith[/url] requires around 38 unique items to craft, and the odds of all of those items being legal is around 1 in 200 billion.
