@@ -1,28 +1,17 @@
 # This file will automatically update with entries for new content after a build and reload
 
-Items: {
-	BasicSword: {
-		DisplayName: Basic Sword
-		Tooltip: ""
-	}
-}
-
-ChallengeConfig: {
-	DisplayName: Thanos Challenge Config
-
-	PercentageRemoved: {
-		Label: Percentage of Items Removed
-		Tooltip: Percentage of items that can't be used. Only applies when creating a new world.
-	}
-}
-
 Configs: {
 	ChallengeConfig: {
 		DisplayName: Challenge Config
 
 		PercentageRemoved: {
 			Label: Percentage Removed
-			Tooltip: ""
+			Tooltip: Percentage of items that can't be used. Only applies when creating a world by default.
+		}
+
+		RerollBannedItemsOnWorldLoad: {
+			Label: Reroll Banned Items On World Load
+			Tooltip: Whether to reroll the list of items that can't be used when an existing world is entered.
 		}
 	}
 }

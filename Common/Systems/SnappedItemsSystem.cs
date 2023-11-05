@@ -35,12 +35,12 @@ namespace ThanosChallenge.Common.Systems
         public override void LoadWorldData(TagCompound tag)
         {
             IsItemAllowed = null;
-            if(tag.ContainsKey("bannedItems"))
-            {
-                IsItemAllowed = tag.Get<bool[]>("bannedItems");
-            } else
+            if(!tag.ContainsKey("bannedItems") || ModContent.GetInstance<ChallengeConfig>().RerollBannedItemsOnWorldLoad)
             {
                 CreateList();
+            } else
+            {
+               IsItemAllowed = tag.Get<bool[]>("bannedItems");
             }
         }
 
@@ -64,7 +64,7 @@ namespace ThanosChallenge.Common.Systems
             IsItemAllowed = new bool[legalList.Count+1];
             IsItemAllowed[0] = true;
             //Divide the randomized list in half
-            for (int i = (int)((legalList.Count) * ModContent.GetInstance<ChallengeConfig>().PercentageRemoved); i < legalList.Count; i++)
+            for (int i = (int)((legalList.Count) * (ModContent.GetInstance<ChallengeConfig>().PercentageRemoved/100f)); i < legalList.Count; i++)
             {
                 IsItemAllowed[legalList[i]] = true;
             }

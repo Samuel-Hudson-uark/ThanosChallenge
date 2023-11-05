@@ -12,8 +12,13 @@ namespace ThanosChallenge.Common.Systems
     {
         public override ConfigScope Mode => ConfigScope.ServerSide;
 
-        [DefaultValue(0.5f)]
+        [Range(0f,100f)]
+        [DefaultValue(50f)]
         [DrawTicks]
-        public float PercentageRemoved = 0.5f;
+        [Increment(1f)]
+        public float PercentageRemoved = 50f;
+
+        [DefaultValue(false)]
+        public bool RerollBannedItemsOnWorldLoad = false;
     }
 }
