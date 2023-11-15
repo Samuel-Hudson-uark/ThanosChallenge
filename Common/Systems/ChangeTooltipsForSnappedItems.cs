@@ -46,15 +46,5 @@ namespace ThanosChallenge.Common.Systems
         {
             return SnappedItemsSystem.IsItemAllowed[item.type];
         }
-
-        public override bool CanEquipAccessory(Item item, Player player, int slot, bool modded)
-        {
-            return SnappedItemsSystem.IsItemAllowed[item.type];
-        }
-
-        public override bool ConsumeItem(Item item, Player player)
-        {
-            return SnappedItemsSystem.IsItemAllowed[item.type];
-        }
     }
 }
